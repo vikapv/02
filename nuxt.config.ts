@@ -14,7 +14,11 @@ export default defineNuxtConfig({
           tagPosition: `bodyClose`,
         }
       ]
-    }
+    },
+    rootTag: undefined,
+    rootAttrs: {
+      class: 'd-flex flex-column h-100'
+    },
   }
 })
 
